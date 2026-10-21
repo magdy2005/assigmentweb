@@ -1,0 +1,40 @@
+ body {
+            background-color: #65c8d6;
+            color: #06454b;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2856a4;
+            font-size: 40px;
+            font-style: italic;
+            margin-top: 35px;
+        }
+
+        hr {
+            border: 1px solid #b7e3e7;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .news {
+            color: silver;
+        }
+
+        .comics {
+            color: #d65a9e;
+        }
+
+        .ads {
+            color: #ff8c00;
+        }
+
+        .rates {
+            font-family: monospace;
+            font-size: 18px;
+            line-height: 1.5;
+        }

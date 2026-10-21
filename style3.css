@@ -1,0 +1,110 @@
+
+body {
+    background-color: white;
+    color: #333;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.container {
+    max-width: 780px;
+    margin: 12px auto;
+    border: 2px solid #ccc;
+}
+
+/* Header */
+.head {
+    height: 210px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.head-content {
+    width: 66.67%;
+    margin-top: 75px;
+}
+
+.head h1 {
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Author */
+.author {
+    text-align: center;
+    height: 70px;
+    position: relative;
+    margin-top: -22px;
+    z-index: 1;
+}
+
+.author img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.author p {
+    font-size: 8px;
+    margin: 0;
+}
+
+.author h6 {
+    font-size: 5%;
+    font-style: italic;
+}
+
+/* Articles */
+.articles {
+    width: 66.67%;
+    margin-left: 16.67%;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    margin:2px;
+   }
+
+.location {
+    font-family: Arial, sans-serif;
+    font-size: 7px;
+    color: #3993a8;
+    margin: 2px 8px;
+}
+
+.description {
+    font-size: 8px;
+    line-height: 1.8;
+    margin:10px;
+}
+
+.recommendation {
+    font-size: 8px;
+    padding: 5px 2px;
+    margin: 10px  20px;
+}
+
+.drink-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
